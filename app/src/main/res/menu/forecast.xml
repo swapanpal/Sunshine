@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Create a menu resource in res/menu/ called forecast.xml-->
+<!-- The menu found in the main multi-day forecast  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <!-- Add one item to the menu with an ID of action_refresh-->
+    <!-- Set the title of the menu item to "Refresh" using strings.xml-->
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="1"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom"/>
+
+</menu>
